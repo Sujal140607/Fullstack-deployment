@@ -36,34 +36,6 @@ This project demonstrates real-world deployment flow including:
 
 ---
 
-## 📁 Project Structure
-
-```
-CODE/
-│
-├── Backend/
-│   ├── config/
-│   │   └── database.js
-│   ├── models/
-│   │   └── notes.model.js
-│   ├── public/
-│   │   └── index.html
-│   ├── src/
-│   │   └── app.js
-│   ├── server.js
-│   ├── .env
-│   └── package.json
-│
-├── Frontend/
-│   ├── src/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── dist/   ← production build
-│   └── package.json
-```
-
----
-
 ## 🔄 How It Works
 
 1. React frontend sends requests to Express API.
@@ -85,8 +57,8 @@ CODE/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Sujal140607/Fullstack-deployment.git
+cd Fullstack-deployment
 ```
 
 ### 2️⃣ Backend Setup
